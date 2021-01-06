@@ -28,5 +28,5 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/my-key.json"
 ## CREDITS
 
 - [inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter/)
-- [pyton-speech](https://github.com/googleapis/python-speech/)
+- [python-speech](https://github.com/googleapis/python-speech/)
 
