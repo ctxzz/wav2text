@@ -34,7 +34,7 @@ def seg2text(segmentations, input_files, output_files):
                 start_time = segment[1] * 1000
                 end_time = segment[2] * 1000
 
-                newAudio = AudioSegment.from_wav(input_file)
+                newAudio = AudioSegment.from_file(input_file)
                 newAudio = newAudio[start_time:end_time]
                 newAudio.export(output_file + '-' + str(idx) + '.wav', format="wav")
 

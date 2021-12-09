@@ -33,7 +33,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/my-key.json"
 Video to audio file.
 
 ```bash
-$ ffmpeg -i input.mp4 -ar 16000 -ac 1 -map 0:1 output.wav 
+$ ffmpeg -i input.mp4 -ar 16000 -ac 1 -map 0:2 output.wav
 ```
 
 
